@@ -1,0 +1,13 @@
+{
+  "base": "YOLO11n",
+  "runtime": "PyTorch 2.8.0 CPU",
+  "classes": [
+    "soccer ball"
+  ],
+  "training": "scripts/train_detector.py; 128 training / 32 validation synthetic images; own Gazebo ball reference",
+  "seed": 42,
+  "epochs": 16,
+  "imgsz": 320,
+  "sha256": "9cbf8aeefba29318092f6a5e4ac6f096c8b86a673a740537348ccc140751f19f",
+  "scope": "Simulation-specific; real football footage not validated"
+}

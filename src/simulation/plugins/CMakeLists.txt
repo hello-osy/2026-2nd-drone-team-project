@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.16)
+project(pd_ball LANGUAGES CXX)
+find_package(gz-sim8 REQUIRED)
+add_library(pd_ball SHARED BallMotion.cc)
+target_link_libraries(pd_ball PRIVATE gz-sim8::gz-sim8)
+target_compile_features(pd_ball PRIVATE cxx_std_17)

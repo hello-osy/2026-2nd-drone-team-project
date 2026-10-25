@@ -1,0 +1,6 @@
+numpy==1.26.4
+opencv-python==4.11.0.86
+mavsdk==3.10.2
+ultralytics==8.3.228
+torch==2.8.0
+torchvision==0.23.0
